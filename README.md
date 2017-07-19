@@ -51,5 +51,10 @@ pm2 start google-chrome \
 # run your Node.js app.
 
 pm2 start index.js
-```bash
+```
+
+## Example Test
+```
+curl 'localhost:3000' -H 'accept: application/json, text/plain, */*' -H 'content-type: application/json' --data-binary '{"body":"<p>Hello World</p>"}' > test.pdf
+```
 
