@@ -55,6 +55,6 @@ pm2 start index.js
 
 ## Example Test
 ```
-curl 'localhost:3000' -H 'accept: application/json, text/plain, */*' -H 'content-type: application/json' --data-binary '{"body":"<p>Hello World</p>"}' > test.pdf
+curl 'localhost:3000' -H 'accept: application/json, text/plain, */*' -H 'content-type: application/json' --data-binary '{"content":"<p>Hello World</p>"}' > test.pdf
 ```
 
